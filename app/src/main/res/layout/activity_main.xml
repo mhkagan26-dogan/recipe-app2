@@ -10,18 +10,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Uygulama Başlığı -->
+        <!-- App Title -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🍳 Nefis Yemek Tarifleri"
+            android:text="🍳 Delicious Recipes"
             android:textColor="#212121"
             android:textSize="26sp"
             android:textStyle="bold"
             android:gravity="center"
             android:paddingBottom="16dp" />
 
-        <!-- Tarif Kartı 1: Mercimek Çorbası -->
+        <!-- Recipe Card 1: Red Lentil Soup -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🥣 Süzme Mercimek Çorbası"
+                android:text="🥣 Red Lentil Soup"
                 android:textColor="#D32F2F"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="⏱️ 25 Dk | ⚡ 180 kcal | 🌱 Vejetaryen"
+                android:text="⏱️ 25 Min | ⚡ 180 kcal | 🌱 Vegetarian"
                 android:textColor="#757575"
                 android:textSize="13sp"
                 android:paddingTop="4dp"
@@ -51,7 +51,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Malzemeler:"
+                android:text="Ingredients:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -59,7 +59,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="• 1 su bardağı kırmızı mercimek\n• 1 adet kuru soğan &amp; havuç\n• 1 yemek kaşığı tereyağı &amp; un\n• 5 su bardağı sıcak su, tuz, karabiber"
+                android:text="• 1 cup red lentils\n• 1 onion &amp; 1 carrot\n• 1 tbsp butter &amp; flour\n• 5 cups hot water, salt, black pepper"
                 android:textColor="#424242"
                 android:textSize="14sp"
                 android:paddingBottom="8dp" />
@@ -67,7 +67,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hazırlanışı:"
+                android:text="Instructions:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -75,12 +75,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. Soğan ve havucu tereyağında soteleyin.\n2. Yıkanmış mercimeği ve unu ekleyip kavurun.\n3. Suyu ekleyip mercimekler yumuşayana kadar pişirin ve blender'dan geçirin."
+                android:text="1. Saute chopped onion and carrot in butter.\n2. Add washed lentils and flour, stir well.\n3. Pour water, simmer until soft, then blend."
                 android:textColor="#424242"
                 android:textSize="14sp" />
         </LinearLayout>
 
-        <!-- Tarif Kartı 2: Menemen -->
+        <!-- Recipe Card 2: Classic Menemen -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🍳 Pratik Menemen"
+                android:text="🍳 Classic Menemen"
                 android:textColor="#E65100"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -101,7 +101,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="⏱️ 15 Dk | ⚡ 220 kcal | 🍳 Kahvaltılık"
+                android:text="⏱️ 15 Min | ⚡ 220 kcal | 🍳 Breakfast"
                 android:textColor="#757575"
                 android:textSize="13sp"
                 android:paddingTop="4dp"
@@ -110,7 +110,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Malzemeler:"
+                android:text="Ingredients:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -118,7 +118,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="• 2 adet domates &amp; 2 adet yeşil biber\n• 2 adet yumurta\n• 2 yemek kaşığı sıvı yağ, tuz, pul biber"
+                android:text="• 2 tomatoes &amp; 2 green peppers\n• 2 eggs\n• 2 tbsp olive oil, salt, red pepper flakes"
                 android:textColor="#424242"
                 android:textSize="14sp"
                 android:paddingBottom="8dp" />
@@ -126,7 +126,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hazırlanışı:"
+                android:text="Instructions:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -134,12 +134,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. Biberleri doğrayıp sıvı yağda soteleyin.\n2. Küp doğranmış domatesleri ekleyip suyunu çekene kadar pişirin.\n3. Yumurtaları kırıp hafifçe karıştırarak pişirin."
+                android:text="1. Saute peppers in olive oil.\n2. Add diced tomatoes, simmer until juicy.\n3. Beat eggs gently into the pan and cook."
                 android:textColor="#424242"
                 android:textSize="14sp" />
         </LinearLayout>
 
-        <!-- Tarif Kartı 3: Fırında Sütlaç -->
+        <!-- Recipe Card 3: Baked Rice Pudding -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🍮 Fırında Sütlaç"
+                android:text="🍮 Baked Rice Pudding"
                 android:textColor="#6A1B9A"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -160,7 +160,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="⏱️ 40 Dk | ⚡ 280 kcal | 🍨 Tatlı"
+                android:text="⏱️ 40 Min | ⚡ 280 kcal | 🍨 Dessert"
                 android:textColor="#757575"
                 android:textSize="13sp"
                 android:paddingTop="4dp"
@@ -169,7 +169,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Malzemeler:"
+                android:text="Ingredients:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -177,7 +177,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="• 1 litre süt &amp; 1 çay bardağı pirinç\n• 1 su bardağı şeker\n• 2 yemek kaşığı nişasta &amp; 1 paket vanilya"
+                android:text="• 1 liter milk &amp; 1/2 cup rice\n• 1 cup sugar\n• 2 tbsp cornstarch &amp; 1 tsp vanilla extract"
                 android:textColor="#424242"
                 android:textSize="14sp"
                 android:paddingBottom="8dp" />
@@ -185,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hazırlanışı:"
+                android:text="Instructions:"
                 android:textColor="#212121"
                 android:textStyle="bold"
                 android:textSize="15sp" />
@@ -193,7 +193,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. Pirinci suyla haşlayın. Sütü ve şekeri ekleyin.\n2. Nişastayı az suyla açıp karışıma ekleyin ve koyulaşana kadar pişirin.\n3. Güveç kaplarına paylaştırıp fırının üst rafında üzeri kızarana kadar pişirin."
+                android:text="1. Boil rice in water, add milk and sugar.\n2. Mix cornstarch with water, stir into pot.\n3. Pour into ramekins, bake until golden top."
                 android:textColor="#424242"
                 android:textSize="14sp" />
         </LinearLayout>
